@@ -106,7 +106,7 @@ a:hover {
    ================================ */
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -466,7 +466,7 @@ a:hover {
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    gap: 4rem;
+    gap: 5rem;
     margin-top: 3rem;
 }
 
