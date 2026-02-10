@@ -48,6 +48,41 @@ window.addEventListener('scroll', function() {
 });
 
 // ================================
+// Scroll Indicator
+// ================================
+
+const scrollIndicator = document.getElementById('scrollIndicator');
+
+if (scrollIndicator) {
+    // Hide after 10 seconds
+    const hideTimeout = setTimeout(() => {
+        scrollIndicator.classList.add('hidden');
+    }, 10000);
+    
+    // Hide on scroll
+    let hasScrolled = false;
+    window.addEventListener('scroll', function() {
+        if (!hasScrolled && window.scrollY > 100) {
+            hasScrolled = true;
+            scrollIndicator.classList.add('hidden');
+            clearTimeout(hideTimeout);
+        }
+    });
+    
+    // Make it clickable to scroll down
+    scrollIndicator.addEventListener('click', function() {
+        const aboutSection = document.getElementById('about');
+        if (aboutSection) {
+            const offsetTop = aboutSection.offsetTop - 80;
+            window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+}
+
+// ================================
 // Mobile Menu Toggle
 // ================================
 
