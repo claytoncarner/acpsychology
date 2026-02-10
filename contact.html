@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dr. [Name]</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600&family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Dr. [Name]</div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#faqs" class="nav-link">FAQs</a></li>
+                <li><a href="index.html#location" class="nav-link">Location</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="contact.html" class="nav-link nav-cta active">Book Appointment</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-header">
+                <div class="section-ornament"></div>
+                <h1 class="section-title">Schedule a Consultation</h1>
+                <p class="form-subtitle">Taking the first step is courageous. I'm here to help you on your journey toward healing and growth. Please fill out the form below, and I'll get back to you within 24-48 hours to schedule your initial consultation.</p>
+            </div>
+
+            <div class="form-container">
+                <form id="contactForm" class="contact-form" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input 
+                                type="text" 
+                                id="firstName" 
+                                name="firstName" 
+                                required
+                                autocomplete="given-name"
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input 
+                                type="text" 
+                                id="lastName" 
+                                name="lastName" 
+                                required
+                                autocomplete="family-name"
+                            >
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required
+                                autocomplete="email"
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone" 
+                                required
+                                autocomplete="tel"
+                            >
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="preferredContact">Preferred Contact Method *</label>
+                        <select id="preferredContact" name="preferredContact" required>
+                            <option value="">Select an option</option>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                            <option value="either">Either</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sessionType">Session Type Preference *</label>
+                        <select id="sessionType" name="sessionType" required>
+                            <option value="">Select an option</option>
+                            <option value="in-person">In-Person</option>
+                            <option value="online">Online (Telehealth)</option>
+                            <option value="flexible">Flexible</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="concerns">What brings you to therapy? *</label>
+                        <textarea 
+                            id="concerns" 
+                            name="concerns" 
+                            rows="5" 
+                            required
+                            placeholder="Please share a brief description of what you'd like to work on. This helps me prepare for our first conversation."
+                        ></textarea>
+                        <span class="form-helper">Your response is confidential and helps me understand how I can best support you.</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="availability">Preferred Days/Times</label>
+                        <textarea 
+                            id="availability" 
+                            name="availability" 
+                            rows="3"
+                            placeholder="E.g., Weekday mornings, Tuesday/Thursday afternoons, etc."
+                        ></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="referral">How did you hear about me?</label>
+                            <select id="referral" name="referral">
+                                <option value="">Select an option</option>
+                                <option value="google">Google Search</option>
+                                <option value="insurance">Insurance Directory</option>
+                                <option value="referral">Referral from Friend/Family</option>
+                                <option value="doctor">Referral from Doctor</option>
+                                <option value="psychologytoday">Psychology Today</option>
+                                <option value="social">Social Media</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="insurance">Do you plan to use insurance?</label>
+                            <select id="insurance" name="insurance">
+                                <option value="">Select an option</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No - Self-Pay</option>
+                                <option value="unsure">Not Sure Yet</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="additionalInfo">Additional Information</label>
+                        <textarea 
+                            id="additionalInfo" 
+                            name="additionalInfo" 
+                            rows="3"
+                            placeholder="Anything else you'd like me to know?"
+                        ></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <span class="checkbox-text">I understand that this form is not a substitute for emergency services. If you are in crisis or experiencing a mental health emergency, please call 911 or go to your nearest emergency room. *</span>
+                        </label>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary btn-large">Submit Request</button>
+                        <p class="form-note">By submitting this form, you acknowledge that you've read and understood the above information. I look forward to connecting with you soon.</p>
+                    </div>
+                </form>
+
+                <div class="form-sidebar">
+                    <div class="sidebar-card">
+                        <h3>What Happens Next?</h3>
+                        <ol class="process-steps">
+                            <li>
+                                <strong>Review</strong>
+                                <p>I'll carefully review your request within 24-48 hours.</p>
+                            </li>
+                            <li>
+                                <strong>Response</strong>
+                                <p>I'll reach out via your preferred contact method to discuss availability.</p>
+                            </li>
+                            <li>
+                                <strong>Schedule</strong>
+                                <p>We'll find a time that works for your initial consultation.</p>
+                            </li>
+                            <li>
+                                <strong>Begin</strong>
+                                <p>Your journey toward healing and growth begins.</p>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Questions?</h3>
+                        <p>If you have immediate questions or prefer to speak directly, feel free to call or email:</p>
+                        <div class="sidebar-contact">
+                            <a href="tel:+1234567890">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                +1 (234) 567-890
+                            </a>
+                            <a href="mailto:email@example.com">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                email@example.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Dr. [Name]. All rights reserved.</p>
+                    <p class="footer-disclaimer">Licensed Clinical Psychologist | [License Number]</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html#home">Home</a>
+                    <a href="index.html#about">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
