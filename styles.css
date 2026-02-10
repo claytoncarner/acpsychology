@@ -172,7 +172,7 @@ a:hover {
 }
 
 .nav-link {
-    font-weight: 400;
+    font-weight: 600;
     color: var(--grey-dark);
     position: relative;
     font-size: 1.25rem;
@@ -306,7 +306,7 @@ a:hover {
 }
 
 .hero-title {
-    font-size: clamp(3rem, 5vw, 5rem);
+    font-size: clamp(4rem, 5vw, 6rem);
     color: var(--charcoal);
     margin-bottom: 1.5rem;
     line-height: 1.2;
@@ -379,9 +379,8 @@ a:hover {
    ================================ */
 
 .scroll-indicator {
-    position: fixed;          /* Changed from absolute to fixed */
-    bottom: 10vh;             /* 10% from bottom of screen */
-    left: 50;             /* 1/2 from left side */
+    position: absolute;          /* Changed from absolute to fixed */
+    bottom: 0vh;             /* 10% from bottom of screen */;             /* 1/2 from left side */
     transform: none;;          /* Removed centering transform */
     z-index: 1000;            /* Increased z-index to be above everything */
     display: flex;
