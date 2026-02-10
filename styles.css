@@ -390,7 +390,7 @@ a:hover {
     gap: 0.75rem;
     opacity: 1;
     transition: opacity 1s ease;
-    animation: fadeInUp 3s ease 1s both;
+    animation: fadeInUp 10s ease 1s both;
     cursor: pointer;
 }
 
