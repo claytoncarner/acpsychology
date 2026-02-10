@@ -159,8 +159,8 @@ a:hover {
 
 .nav-logo {
     font-family: var(--font-serif);
-    font-size: 10 rem;
-    font-weight: 2000;
+    font-size: 3 rem;
+    font-weight: 800;
     color: var(--primary-green);
 }
 
