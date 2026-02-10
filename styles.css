@@ -159,8 +159,8 @@ a:hover {
 
 .nav-logo {
     font-family: var(--font-serif);
-    font-size: 0.5 rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 500;
     color: var(--primary-green);
 }
 
@@ -175,6 +175,7 @@ a:hover {
     font-weight: 500;
     color: var(--grey-dark);
     position: relative;
+    font-size: 1.5rem;
     padding: 0.5rem 0;
     transition: color var(--transition-fast);
 }
@@ -377,8 +378,8 @@ a:hover {
 .scroll-indicator {
     position: fixed;          /* Changed from absolute to fixed */
     bottom: 10vh;             /* 10% from bottom of screen */
-    left: 40%;             /* 1/3 from left side */
-    transform: translateX(-60%);;          /* Removed centering transform */
+    left: 25%;             /* 1/3 from left side */
+    transform: none;;          /* Removed centering transform */
     z-index: 1000;            /* Increased z-index to be above everything */
     display: flex;
     flex-direction: column;
