@@ -159,8 +159,8 @@ a:hover {
 
 .nav-logo {
     font-family: var(--font-serif);
-    font-size: 2.5rem;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 600;
     color: var(--primary-green);
 }
 
@@ -303,14 +303,14 @@ a:hover {
 }
 
 .hero-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(3rem, 5vw, 5rem);
     color: var(--charcoal);
     margin-bottom: 1.5rem;
     line-height: 1.2;
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--grey-dark);
     margin-bottom: 2.5rem;
     line-height: 1.6;
