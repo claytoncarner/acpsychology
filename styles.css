@@ -378,7 +378,7 @@ a:hover {
 .scroll-indicator {
     position: fixed;          /* Changed from absolute to fixed */
     bottom: 10vh;             /* 10% from bottom of screen */
-    left: 25%;             /* 1/3 from left side */
+    left: 50;             /* 1/2 from left side */
     transform: none;;          /* Removed centering transform */
     z-index: 1000;            /* Increased z-index to be above everything */
     display: flex;
