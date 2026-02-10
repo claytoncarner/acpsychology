@@ -378,7 +378,7 @@ a:hover {
     position: fixed;          /* Changed from absolute to fixed */
     bottom: 10vh;             /* 10% from bottom of screen */
     left: 33.33%;             /* 1/3 from left side */
-    transform: none;          /* Removed centering transform */
+    transform: translateX(-50%);;          /* Removed centering transform */
     z-index: 1000;            /* Increased z-index to be above everything */
     display: flex;
     flex-direction: column;
@@ -386,7 +386,7 @@ a:hover {
     gap: 0.75rem;
     opacity: 1;
     transition: opacity 0.5s ease;
-    animation: fadeInUp 1.5s ease 1s both;
+    animation: fadeInUp 3s ease 1s both;
     cursor: pointer;
 }
 
