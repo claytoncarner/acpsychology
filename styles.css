@@ -597,7 +597,7 @@ a:hover {
     cursor: pointer;
     text-align: left;
     font-family: var(--font-serif);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--primary-green);
     font-weight: 600;
     transition: all var(--transition-fast);
@@ -623,6 +623,7 @@ a:hover {
     overflow: hidden;
     transition: max-height var(--transition-slow), padding var(--transition-normal);
     padding: 0 2rem;
+    font-size: 1.2rem;
 }
 
 .faq-item.active .faq-answer {
