@@ -352,7 +352,7 @@ a:hover {
     background: linear-gradient(135deg, var(--bg-light-green) 0%, var(--bg-white) 100%);
 }
 
-.placeholder-content {
+.placeholder-specializations {
     width: 100%;
     height: 100%;
     display: flex;
