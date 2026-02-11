@@ -344,7 +344,7 @@ a:hover {
 }
 
 .image-placeholder {
-    width:105%;
+    width:100%;
     aspect-ratio: 4/5;
     border-radius: var(--radius-xl);
     overflow: hidden;
