@@ -548,8 +548,7 @@ a:hover {
 }
 
 .specialization-tags span:hover {
-    background-color: var(--primary-green-light);
-    transform: translateY(-2px);
+    /*no hover for now*/
 }
 
 /* ================================
@@ -761,7 +760,7 @@ address p {
     margin-bottom: 0.25rem;
 }
 
-.contact-method a {
+.contact-method span {
     color: var(--grey-dark);
     font-weight: 500;
 }
