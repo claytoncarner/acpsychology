@@ -497,7 +497,7 @@ a:hover {
 
 .about-intro {
     font-size: 1.25rem;
-    color: var(--primary-green);
+    color: var(--charcoal);
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
@@ -534,6 +534,7 @@ a:hover {
 .specializations h3 {
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    padding-top: 5rem;
 }
 
 .specialization-tags {
