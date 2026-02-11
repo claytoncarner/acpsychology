@@ -60,7 +60,7 @@ html {
 
 body {
     font-family: var(--font-sans);
-    font-size: 16px;
+    font-size: 1.2rem;
     line-height: 1.7;
     color: var(--charcoal);
     background-color: var(--bg-cream);
@@ -500,7 +500,7 @@ a:hover {
 }
 
 .credentials h3 {
-    font-size: 2rem;
+    font-size: 2.0rem;
     margin-bottom: 1rem;
 }
 
@@ -652,7 +652,7 @@ a:hover {
 }
 
 .location-info h3 {
-    font-size: 2rem;
+    font-size: 2.0rem;
     margin-bottom: 1.5rem;
 }
 
