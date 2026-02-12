@@ -1230,6 +1230,13 @@ address p {
         flex-direction: column;
         text-align: center;
     }
+
+    .specialization-tags span {
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    
 }
 
 @media (max-width: 480px) {
@@ -1247,6 +1254,11 @@ address p {
     
     .cta-card {
         padding: 2rem 1.5rem;
+    }
+
+    .specialization-tags span {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.85rem;
     }
 }
 
