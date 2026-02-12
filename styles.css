@@ -1211,6 +1211,10 @@ address p {
     .mobile-menu-toggle {
         display: flex;
     }
+
+    .scroll-indicator {
+        display: none; /* Hide scroll indicator on mobile to prevent overlap */
+    }
     
     .form-row {
         grid-template-columns: 1fr;
