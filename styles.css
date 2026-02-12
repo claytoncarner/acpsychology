@@ -1181,6 +1181,12 @@ address p {
     .form-container {
         grid-template-columns: 1fr;
     }
+
+    .form-sidebar {
+        max-width: 600px;
+        margin: 0 auto; /* Center the sidebar cards */
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
