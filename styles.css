@@ -1226,3 +1226,38 @@ address p {
         padding: 2rem 1.5rem;
     }
 }
+
+/* ================================
+   JotForm Iframe Styling
+   ================================ */
+
+.jotform-container {
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+}
+
+.jotform-container iframe {
+    width: 100%;
+    min-height: 800px;
+    border: none;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+}
+
+/* Adjust form container for JotForm */
+.form-container:has(.jotform-container) {
+    grid-template-columns: 1.5fr 1fr;
+}
+
+@media (max-width: 1024px) {
+    .jotform-container iframe {
+        min-height: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .jotform-container iframe {
+        min-height: 1200px;
+    }
+}
