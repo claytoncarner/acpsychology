@@ -164,6 +164,19 @@ a:hover {
     color: var(--primary-green);
 }
 
+/* Mobile nav logo sizing */
+@media (max-width: 768px) {
+    .nav-logo {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-logo {
+        font-size: 1.5rem;
+    }
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
