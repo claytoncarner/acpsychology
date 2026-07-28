@@ -16,7 +16,7 @@ your-repository-name/
 └── README.md           # This file
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Create Your GitHub Repository
 
